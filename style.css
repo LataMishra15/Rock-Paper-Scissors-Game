@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding :0;
+}
+#body1{
+    background-color:rgb(171, 231, 252);
+    background-image:url(images/GameBG.jpg) ;
+    background-size: cover;
+    background-position:0% 16% ;
+}
+#heading{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 55px;
+    text-shadow: 0 0 5px #ff4ec4,0 0 10px #ff4ec4,0 0 20px #ff4ec4, 0 0 40px #ff4ec4;
+    height: 65px;
+}
+#round{
+    text-align: center;
+    color: rgba(48, 27, 27, 0.785);
+    font-size: 49px;
+    margin-top: 10px;
+}
+.userChoices{
+    height:340px;
+    width:550px;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    margin-top: 15px;
+    background-color: rgb(177, 204, 227);
+    border-radius: 10%;
+}
+.choices{
+    display: flex;
+    height:200px;
+    width:550px;
+    margin:9px 0px 9px 0px;
+    justify-content:center;
+    justify-content:space-around;
+}
+.choice{
+    display: flex;
+    height:180px;
+    width:170px;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 30px;
+}
+.choice:hover{
+    opacity: 0.9;
+    border:2px solid black;
+}
+.status{
+    font-size:large;
+}
+.box{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.compChoice{
+    height:340px;
+    width:440px;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    margin-top: 15px;
+    background-color:rgb(177, 204, 227);
+    border-radius: 10%;
+}
+#comp-move{
+    width:430px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+#msg{
+    height:40px;
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* GameOver */
+#body2{
+    background-image:url(images/GameOverBg.jpg) ;
+    background-size: cover;
+}
+#finish{
+    text-align: center;
+    color:rgb(26, 20, 36);
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+#yourResult{
+    text-align: center;
+    color:rgba(25, 16, 16, 0.785);
+    font-size: 35px;
+    margin: 150px 0px 20px 0px;
+}
+#scoreRatio{
+    text-align: center;
+    color:rgb(14, 10, 21);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(1, 1, 23);
+    color: aliceblue;
+    font-size: large;
+    padding: 10px;
+    border-radius:10px;
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(128, 128, 9);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="body2">
+    <h1 id="finish">Game Over</h1>
+    <p id="yourResult"></p>
+    <p id="scoreRatio"></p>
+    <div style="display:flex; justify-content:center;">
+    <button onclick="window.location.href='index.html'">Play Again</button>
+    </div>
+
+    <script>
+    const result=localStorage.getItem("result");
+    const user=localStorage.getItem("userScore");
+    const comp=localStorage.getItem("compScore");
+
+    document.getElementById("yourResult").textContent=result==="win"?"You Win😄!":"You Lose😓...";
+    document.getElementById("scoreRatio").textContent=`${user} : ${comp}`;
+    </script>
+    
+</body>
+</html>

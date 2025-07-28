@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="body1">
+    <h1 id="heading">Stone Paper Scissor</h1>
+    <h1 id="round">Round 1</h1>
+    <div class="box">
+
+    <div class="userChoices">
+        <p>Your Score</p>
+        <div><span id="user-star">☆☆☆</span></div>
+        <div class="choices">
+        <div class="choice" id="Rock" style="background-image: url('images/Rock img.png');"></div>
+        <div class="choice" id="Scissor" style="background-image: url('images/Scissors img.png');"></div>
+        <div class="choice" id="Paper" style="background-image: url('images/Paper img.png');"></div>
+        </div>
+        <P id="userStatus">Take your pick</P>
+    </div>
+    <div class="compChoice">
+    <p>Computer's Score</p>
+    <div><span id="comp-star">☆☆☆</span></div>
+    <div class="choices" id="comp-move">✔ </div>
+    <P id="compStatus">Computer made a pick</P>
+    </div>
+
+    </div>
+    <div id="msg"> </div>
+
+<script src="game.js"></script>
+</body>
+</html>
